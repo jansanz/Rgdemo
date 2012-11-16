@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TTTAttributedLabel.h"
 
-@interface JSViewController : UIViewController
+@interface JSViewController : UIViewController <TTTAttributedLabelDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *inputTextField;
+@property (weak, nonatomic) IBOutlet TTTAttributedLabel *contentLabel;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
+- (IBAction)goButtonPressed:(id)sender;
 
 @end
