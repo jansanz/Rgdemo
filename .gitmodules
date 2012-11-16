@@ -1,0 +1,9 @@
+[submodule "Submodules/MBProgressHUD"]
+	path = Submodules/MBProgressHUD
+	url = https://github.com/jdg/MBProgressHUD.git
+[submodule "Submodules/Hpple"]
+	path = Submodules/Hpple
+	url = https://github.com/topfunky/hpple
+[submodule "Submodules/TTTAttributedLabel"]
+	path = Submodules/TTTAttributedLabel
+	url = https://github.com/mattt/TTTAttributedLabel
