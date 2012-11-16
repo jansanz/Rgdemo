@@ -93,7 +93,7 @@
                 
                 if ([tag isEqualToString:@"a"]) {
                     
-                    [songString appendString:@"||"];
+//                    [songString appendString:@"||"];
                     
                     NSUInteger rangeStart = songString.length;
                     
@@ -118,7 +118,7 @@
                         [hiperlinkArray addObject:hiperlinkObject];
                     }
                     
-                    [songString appendString:@"||"];
+//                    [songString appendString:@"||"];
                     
                     
                 }
