@@ -132,7 +132,6 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             
             [self.contentLabel setText:songString];
-//            [self.contentLabel setLinkAttributes:<#(NSDictionary *)#>]
             [hiperlinkArray enumerateObjectsUsingBlock:^(NSDictionary *linkDict, NSUInteger idx, BOOL *stop) {
                 
                 NSValue *rangeValue = [linkDict objectForKey:@"range"];
